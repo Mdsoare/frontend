@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://empresas.descomplica.com.br/"><font face="Helvetica"> Projeto Instituto NuBank / Descomplica </font></a></h1>
+<h1 align="center"><a href="https://accounts.descomplica.com.br/?returnUrl=https://empresas.descomplica.com.br/"><font face="Helvetica"> Projeto Instituto NuBank / Descomplica </font></a></h1>
 
 <h3 align="center"><font face="Helvetica"> Treinamento Front-End</font></h3>
 
