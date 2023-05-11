@@ -2,26 +2,20 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="600">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Viagem dos sonhos</title>
 </head>
 <body>
     <header>
-        <nav> <!--Criação de um menu suspenso-->
-			<select name="menu">
-				<option value="Pacotes">Pacotes</option>
-				<option value="Taxas">Taxas</option>
-				<option value="Contato" selected>Contato</option>
-			</select>
-            <!-- Outra forma de criar menu através de uma lista não ordenada
+        <nav> 
 			<ul>
                 <li>Pacotes</li>
                 <li>Taxas</li>
                 <li>Contato</li>
             </ul>
-			-->
-        </nav>
+		</nav>
         <h1>Venha realizar a viagem dos seus sonhos</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam itaque recusandae quaerat laboriosam magni quis, at, voluptate ipsa pariatur autem a. Sunt iure facere iste amet sapiente in omnis reiciendis!
@@ -85,6 +79,80 @@
                 </tr>
             </tfoot>
         </table>
+    </section>
+
+    <section>
+        <h2>Orçamento</h2>
+        <form action="" method="get" autocomplete="off"> 
+            <!--action=""  envia para a mesma página -->
+
+            <fieldset>
+                <legend>Dados da viagem</legend><br>
+                <label>Nome:</label><br>
+                <input type="text" name="nome" placeholder="Nome" size="15" maxlength="30" required><br><br>
+            
+                <label>E-mail:</label><br>
+                <input type="email" name="email" placeholder="email@xyz.com.br" size="15" maxlength="30" required><br><br>
+
+                <label>Data de ida:</label><br>
+                <input type="date" name="dataIda" size="15" maxlength="10" required><br><br>
+
+                <label>Data de retorno:</label><br>
+                <input type="date" name="dataRetorno" size="15" maxlength="10" required><br><br>
+
+                <label>Quantidade de pessoas:</label><br>
+                <input type="number" name="qtdPessoas" required><br><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+                <label>
+                    <br><input type="checkbox" name="passagens" value="Passagens" checked>Compra de passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="veiculos" value="Veículos">Reserva de veículos
+                </label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Escolha a forma de pagamento:</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Pix" checked>Pix
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Débito">Cartão de débito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Crédito">Cartão de crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto bancário
+                </label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Escolha o prazo para o pagamento:</legend><br>
+                <select name="prazoPagamento">
+                    <option value="aVista">À Vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x" selected>10x com juros</option>
+                </select>
+            </fieldset><br>
+
+            <label>Comentário:</label><br>
+            <textarea name="comentario" cols="20" rows="7" placeholder="Digite seu comentário"></textarea><br><br>
+           
+            <button type="submit">Salvar</button>
+            <button type="reset">Limpar</button>
+
+            <!--
+            <label>Senha:</label><br>
+            <input type="password" name="senha" placeholder="Digite sua senha!" size="15" maxlength="30" required><br><br>
+            -->
+        </form>
     </section>
     <footer>
         <p>Desenvolvido por Marcelo Soares</p>
