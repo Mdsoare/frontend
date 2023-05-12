@@ -18,34 +18,8 @@ h2{
     font-weight: 600;    
 }
 
-table{
-    width: 100%;
-}
-
-table td{
-    color: #303030;
-    padding: 5px;
-}
-
-table tr:nth-child(even){
-    background-color: #e9e9e9;
-}
-
-table tr:nth-child(odd){
-    background-color: #bdbdbdbd;    
-}
-
-table thead th{
-    background-color: #f4511e;
-    color: white;
-}
-
 /*Ajustando tamanho das imagens fora do Bootstrap */
 figure img{
     width: 240px;
     height: 180px;
-}
-
-footer{
-    text-align: center;
 }
