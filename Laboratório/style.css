@@ -1,23 +1,7 @@
-body{
-    font-weight: 400;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    line-height: 2.2em;
-    color: #818181;
-    margin: 0;
-}
-
-header{
-    background-color: #f4511e;
-}
-
 header p{
-    color: white;
+    color: #ffffffff;
+    font-weight: 600;
     text-align: center;
-}
-
-section, footer {
-    margin: 40px;
 }
 
 h1{
@@ -63,6 +47,23 @@ figure img{
 }
 
 /* Obsoleto - Ajustado para uso do bootstrap 
+
+body{
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
+    margin: 0;
+}
+
+header{
+    background-color: #f4511e;
+}
+
+section, footer {
+    margin: 40px;
+}
 
 nav li a{
     padding: 10px;
