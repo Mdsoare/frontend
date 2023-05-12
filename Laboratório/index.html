@@ -13,13 +13,35 @@
 </head>
 <body>
     <header>
-        <nav> 
-			<ul>
-                <li><a href="#">Pacotes</a></li>
-                <li><a href="#">Taxas</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-		</nav>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Viagem dos sonhos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Taxas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <h1>Venha realizar a viagem dos seus sonhos!</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem quod facilis labore, ex ut nam a sunt dolorem pariatur aliquam velit hic nisi dolorum, vel veritatis at ad facere.
@@ -52,15 +74,6 @@
                 <figcaption>Rio de Janeiro</figcaption><br>                  
             </figure>
         </div>
-        <!-- Elimiar div video
-        <div class="videos">
-            <video controls>
-                <source src="video/rabbit320.webm" type="video/webm">
-                <source src="video/rabbit320.mp4" type="video/mp4">
-                Seu navegador não suporta a exibição do vídeo. <a href="video/rabbit320.webm">Clique aqui para baixar</a>
-            </video>
-        </div>        
-        -->
     </section>
 
     <section>
@@ -165,11 +178,6 @@
            
             <button type="submit">Salvar</button>
             <button type="reset">Limpar</button>
-
-            <!--
-            <label>Senha:</label><br>
-            <input type="password" name="senha" placeholder="Digite sua senha!" size="15" maxlength="30" required><br><br>
-            -->
         </form>
     </section>
     <footer>
