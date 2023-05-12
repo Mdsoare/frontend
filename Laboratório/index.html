@@ -47,7 +47,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem quod facilis labore, ex ut nam a sunt dolorem pariatur aliquam velit hic nisi dolorum, vel veritatis at ad facere.
         </p>
     </header>
-
+    <br>
     <section class="container-fluid bg-light text-center">
         <h2>Conheça nossos pacotes</h2>
         <p>
@@ -75,7 +75,7 @@
             </figure>
         </div>
     </section>
-
+    <br>
     <section class="container-fluid bg-warning">
         <h2>Taxas e serviços</h2>
         <p>Veja nossas taxas para serviços</p>
@@ -103,76 +103,56 @@
             </tbody>
         </table>
     </section>
-    <br><br>
+    <br>
     <section class="container-fluid bg-light">
-        <h2>Contato</h2>
+        <h2 class="text-center">Faça já seu orçamento!</h2>
         <form action="" method="get" autocomplete="off"> 
             <!--action=""  envia para a mesma página -->
 
             <fieldset>
-                <legend>Dados da viagem</legend><br>
-                <label>Nome:</label><br>
-                <input type="text" name="nome" placeholder="Nome" size="15" maxlength="30" required><br><br>
-            
-                <label>E-mail:</label><br>
-                <input type="email" name="email" placeholder="email@xyz.com.br" size="15" maxlength="30" required><br><br>
+                <legend>Dados da viagem</legend>
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome:</label>
+                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome" size="15" maxlength="30" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label" for="email">E-mail:</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="email@xyz.com.br" size="15" maxlength="30" required>
+                </div>
 
-                <label>Data de ida:</label><br>
-                <input type="date" name="dataIda" size="15" maxlength="10" required><br><br>
+                <div class="mb-3">
+                    <label class="form-label" for="dataIda">Data de ida:</label>
+                    <input type="date" class="form-control" name="dataIda" id="dataIda" size="15" maxlength="10" required>
+                </div>
 
-                <label>Data de retorno:</label><br>
-                <input type="date" name="dataRetorno" size="15" maxlength="10" required><br><br>
-
-                <label>Quantidade de pessoas:</label><br>
-                <input type="number" name="qtdPessoas" required><br><br>
-            </fieldset><br>
+                <div class="mb-3">
+                    <label class="form-label" for="dataRetorno">Data de retorno:</label>
+                    <input type="date" class="form-control" name="dataRetorno" id="dataRetorno" size="15" maxlength="10" required>
+                </div>
+            </fieldset>
 
             <fieldset>
                 <legend>Quais serviços deseja contratar?</legend>
-                <label>
-                    <br><input type="checkbox" name="passagens" value="Passagens" checked>Compra de passagens
-                </label>
-                <label>
-                    <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
-                </label>
-                <label>
-                    <br><input type="checkbox" name="veiculos" value="Veículos">Reserva de veículos
-                </label>
-            </fieldset><br>
-
-            <fieldset>
-                <legend>Escolha a forma de pagamento:</legend>
-                <label>
-                    <br><input type="radio" name="formaPagamento" value="Pix">Pix
-                </label>
-                <label>
-                    <br><input type="radio" name="formaPagamento" value="Débito">Cartão de débito
-                </label>
-                <label>
-                    <br><input type="radio" name="formaPagamento" value="Crédito" checked>Cartão de crédito
-                </label>
-                <label>
-                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto bancário
-                </label>
-            </fieldset><br>
-
-            <fieldset>
-                <legend>Escolha o prazo para o pagamento:</legend><br>
-                <select name="prazoPagamento">
-                    <option value="aVista">À Vista</option>
-                    <option value="5x">5x sem juros</option>
-                    <option value="10x" selected>10x com juros</option>
-                </select>
-            </fieldset><br>
-
-            <label>Comentário:</label><br>
-            <textarea name="comentario" cols="20" rows="7" placeholder="Digite seu comentário"></textarea><br><br>
-           
-            <button type="submit">Salvar</button>
-            <button type="reset">Limpar</button>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="passagens" id="passagens" value="Passagens" checked>
+                    <label class="form-check-label" for="passagens">Compra de passagens</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="hospedagem" id="hospedagem" value="Hospedagem">
+                    <label class="form-check-label" for="hospedagem">Reserva de hospedagem</label>
+                </div>
+                <div class="form-check">   
+                    <input type="checkbox" class="form-check-input" name="veiculos" id="veiculos" value="Veículos">
+                    <label class="form-check-label" for="veiculos">Reserva de veículos</label>
+                </div>
+            </fieldset>
+            <br>
+            <button class="btn btn-success" type="submit">Salvar</button>
+            <button class="btn btn-secondary" type="reset">Limpar</button>
         </form>
     </section>
-    <br><br>
+    <br>
     <footer class="container-fluid bg-warning">
         <p>Desenvolvido por Marcelo Soares®</p>
     </footer>
