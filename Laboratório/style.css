@@ -52,3 +52,41 @@ nav{
     padding-right: 40px;
 
 }
+
+table{
+    width: 100%;
+}
+
+table td{
+    color: #303030;
+    padding: 5px;
+}
+
+table tr:nth-child(even){
+    background-color: #e9e9e9;
+}
+
+table tr:nth-child(odd){
+    background-color: #bdbdbdbd;    
+}
+
+table thead th{
+    background-color: #f4511e;
+    color: white;
+}
+
+
+#pacotes .figuras figure img{
+    width: 320px;
+    height: 240px;
+    display: inline-block;
+    position: relative;
+}
+
+
+#pacotes .videos video{
+    float: unset;
+    width: 320px;
+    margin: 0 auto;
+    display: block;
+}
