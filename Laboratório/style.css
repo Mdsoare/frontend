@@ -11,6 +11,11 @@ header{
     background-color: #f4511e;
 }
 
+header p{
+    color: white;
+    text-align: center;
+}
+
 section, footer {
     margin: 40px;
 }
@@ -50,7 +55,6 @@ nav{
     height: 50px;
     background-color: #f83b3b;
     padding-right: 40px;
-
 }
 
 table{
@@ -75,14 +79,23 @@ table thead th{
     color: white;
 }
 
+/*Ajustando tamanho das imagens fora do Bootstrap */
+figure img{
+    width: 240px;
+    height: 180px;
+}
+
+/* Obsoleto - Ajustado para uso do bootstrap 
 
 #pacotes .figuras figure img{
     width: 320px;
     height: 240px;
     display: inline-block;
-    position: relative;
 }
 
+#pacotes .figuras, #pacotes .videos{
+    text-align: center;
+}
 
 #pacotes .videos video{
     float: unset;
@@ -90,3 +103,4 @@ table thead th{
     margin: 0 auto;
     display: block;
 }
+*/
