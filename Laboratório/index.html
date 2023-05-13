@@ -31,10 +31,10 @@
                       Contato
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">E-mail</a></li>
+                      <li><a class="dropdown-item" href="#">Telefones</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Chat</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -81,11 +81,13 @@
     <section class="container-fluid bg-light text-center p-3">
         <h2>Conheça nossos pacotes</h2>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Sites úteis com documentação para Front-End. Saiba mais:
             <br>
-            <a href="https://www.lipsum.com/">Lorem ipsum site</a>   
+            <a href="https://www.lipsum.com/">Site Lorem ipsum</a>   
             <br>
-            <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML">Front-End Mozilla Docs</a>    
+            <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML">Mozilla Docs Front-End</a>    
+            <br>
+            <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap Docs en</a>    
             <br>
             <a href="https://getbootstrap.com.br/">Bootstrap Docs pt-BR</a>      
             <hr>
@@ -100,7 +102,7 @@
                   <h1 class="card-subtitle text-muted">R$ 5.000,00</h1>
                   <p class="card-text">Venha conhecer a linda cidade de Gramado.</p>
                 </div>
-                <a href="#" class="btn btn-primary"> Reservar</a>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</button>
                 <div class="card-footer">
                   <small class="text-body-secondary"><b>Em até 24x</b></small>
                 </div>
@@ -114,7 +116,7 @@
                   <h1 class="card-subtitle text-muted">R$ 4.000,00</h1>
                   <p class="card-text">Se pretende relaxar, Porto Seguro é o lugar ideal.</p>
                 </div>
-                <a href="#" class="btn btn-primary"> Reservar</a>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</button>
                 <div class="card-footer">
                   <small class="text-body-secondary"><b>Em até 24x</b></small>
                 </div>
@@ -128,7 +130,7 @@
                   <h1 class="card-subtitle text-muted">R$ 3.000,00</h1>
                   <p class="card-text">♪ O Rio de Janeiro continua lindo ♫</p>
                 </div>
-                <a href="#" class="btn btn-primary"> Reservar</a>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</button>
                 <div class="card-footer">
                   <small class="text-body-secondary"><b>Em até 24x</b></small>
                 </div>
@@ -221,4 +223,22 @@
     <!--Bootstrap link JavaScript only-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Produto adicionado ao carrinho com sucesso!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+          <button type="button" class="btn btn-success">Finalizar a compra</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>
