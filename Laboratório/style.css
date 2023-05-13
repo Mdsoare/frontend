@@ -19,9 +19,9 @@ h2{
 }
 
 /*Ajustando tamanho das imagens fora do Bootstrap */
-figure img{
-    width: 240px;
-    height: 180px;
+.card img{
+    width: 421px;
+    height: 320px;
 }
 
 .carousel-caption h5{
