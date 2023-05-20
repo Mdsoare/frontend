@@ -14,4 +14,3 @@ distancia = (tempo * velocidadeMedia);
 litrosUsados = distancia / CONSUMO_MEDIO;
 
 console.log("Para a velocidade média de " + velocidadeMedia + " km/h\ncom o tempo gasto de " + tempo + " horas \ne uma distancia de " + distancia + " Km\nforam gastos " + litrosUsados + " litros de combustível");
-
