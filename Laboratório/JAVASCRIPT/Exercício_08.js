@@ -65,5 +65,23 @@ console.log(fruits.join(";"));
 console.log(fruits.join("|")); 
 console.log(fruits); 
 
+// Retornando o valor de uma determinada posição
+console.log("O valor da posição 03 é: " + numeros.indexOf(3));
+console.log(numeros.join(' '));
 
-/* Returns "Banana,Orange,Apple,Mango" */
+//Removendo elementos a partir de um índice com splice
+console.log(fruits.join(' - ')); 
+fruits.splice(2, 1); // Removeu o elemento da posição 2 apenas
+console.log(fruits.join(' - ')); 
+fruits.splice(0, 2); // Removeu os elementos a partir da posição 0 até a 2
+console.log(fruits.join(' - ')); 
+fruits.splice(0);
+console.log(fruits); 
+// Populando o Array...
+fruits[0] = "Banana";
+fruits[1] = "Orange";
+fruits[2] = "Apple";
+fruits[3] = "Mango";
+console.log(fruits.join(' - ')); 
+fruits.splice(1); // Remove todos os elementos a partir da posição 1
+console.log(fruits); 
