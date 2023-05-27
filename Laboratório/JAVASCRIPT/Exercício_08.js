@@ -20,8 +20,50 @@ Exercício 07: Trabalhando com Arrays
 // var arr = [];  // OBS: Se usar "let arr = [42];" Cria um Array com o elemento 42
 // arr.length = comprimentoDoArray; // Tem o mesmo valor das duas  formas acima
 
-// Gerando a meia de um Array com dois métudops: reduce e length:
+// Alguns exempos de uso:
 
-let numeros = [1, 5, 7, 9, 4, 2, 8];
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log("Array Original: " + numeros);
+
+// Para retornar o tamanho do Array:
+console.log("O tamanho do Array é: "  + numeros.length);
+
+// Adicionando elementos no Array com unshift (início) e push (final)
+numeros.unshift(0); 
+numeros.push(10); 
+console.log("Array incrementado: " + numeros);
+
+// Retornando o intervalo de um Array
+console.log("O Intervalo de 0 a 5: " + numeros.slice(0,5)); // Da posição inicial(0) até a posição 5
+console.log("O Intervalo da posição 5 até o final é: " + numeros.slice(5,)); 
+
+// Invertendo a ordem dos elementos do Array
+numeros.reverse();
+console.log("Array invertido: " + numeros);
+
+// Para retornar o primeiro elemento e o remove da lista:
+console.log("Primeiro elemento removido: "  + numeros.shift());
+console.log("Array alterado: "  + numeros);
+
+// Para remover o último elemento de um Array
+console.log("Último elemento removido: "  + numeros.pop());
+console.log("Array alterado: "  + numeros);
+
+// Gerando a meia de um Array com dois métudops: reduce e length:
 let resultadoMedia = (numeros.reduce(function(a, b) {return a + b;})) / numeros.length;
 console.log("A média do Array é: " + resultadoMedia);
+
+// Trabalhando a saída com join
+
+console.log(numeros.join(" * "));
+console.log(numeros.join(' '));
+
+//Outros exemplos:
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.join());  // Default é com ","
+console.log(fruits.join(";")); 
+console.log(fruits.join("|")); 
+console.log(fruits); 
+
+
+/* Returns "Banana,Orange,Apple,Mango" */
