@@ -141,6 +141,19 @@ let filtroFuncionarios = funcionarios.filter(i => i.nome.length < 3);
 // retorna o(s) funcionário(s) com tamanho de nome menor do que 3, no caso Jó
 console.log(filtroFuncionarios);
 
-let filtroFuncionarios2 = funcionarios.filter(a => a);
+var filtroFuncionarios2 = funcionarios.filter(a => a.nome);
 // Retorna todo Array
 console.log(filtroFuncionarios2);
+
+// Usando map para iterar um Array
+
+var numeros5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var num = numeros5.map(a => a * 3);
+console.log(numeros5.join(" "));
+console.log(num.join(' '));
+
+var pessoas = funcionarios.map(pessoa => pessoa.nome);
+console.log(pessoas.join(' - '));
+
+var pessoas2 = funcionarios.map(pessoa => pessoa.idade);
+console.log(pessoas2.join(' - '));
