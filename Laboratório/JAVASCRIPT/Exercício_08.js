@@ -53,10 +53,6 @@ console.log("Array alterado: "  + numeros);
 console.log("Último elemento removido: "  + numeros.pop());
 console.log("Array alterado: "  + numeros);
 
-// Gerando a meia de um Array com dois métudops: reduce e length:
-let resultadoMedia = (numeros.reduce(function(a, b) {return a + b;})) / numeros.length;
-console.log("A média do Array é: " + resultadoMedia);
-
 // Trabalhando a saída com join
 
 console.log(numeros.join(" * "));
@@ -157,3 +153,19 @@ console.log(pessoas.join(' - '));
 
 var pessoas2 = funcionarios.map(pessoa => pessoa.idade);
 console.log(pessoas2.join(' - '));
+
+// Usando o reduce()
+// reduz um Array de valores a um único valor. Para obter o valor de resultado,
+// ele executa uma função de redução em cada elemento do array
+
+// Somando elementos de um Array
+var numeros6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var total = numeros6.reduce(function(total,numero){
+    return total + numero;
+}, 0); // inicia a variavel total = 0
+console.log("A soma total dos elementos do Array é: " + total);
+
+
+// Gerando a meia de um Array com dois métudops: reduce e length:
+let resultadoMedia = (numeros6.reduce(function(a, b) {return a + b})) / numeros.length;
+console.log("A média do Array é: " + resultadoMedia);
