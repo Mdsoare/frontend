@@ -35,6 +35,10 @@ console.log("Array incrementado: " + numeros);
 
 // Retornando o intervalo de um Array
 console.log("O Intervalo de 0 a 5: " + numeros.slice(0,5)); // Da posição inicial(0) até a posição 5
+// Caso deseje colocar o resultado em outro Array:
+// let novoArray = numeros.slice(0,5);
+//
+// Outra forma do uso do splice:
 console.log("O Intervalo da posição 5 até o final é: " + numeros.slice(5,)); 
 
 // Invertendo a ordem dos elementos do Array
@@ -85,3 +89,58 @@ fruits[3] = "Mango";
 console.log(fruits.join(' - ')); 
 fruits.splice(1); // Remove todos os elementos a partir da posição 1
 console.log(fruits); 
+
+// Usando o concat
+let palavra1 = "Dr. ";
+let palavra2 = "João";
+let juntarPalavras = palavra1.concat(palavra2);
+console.log(juntarPalavras);
+
+// O método filter recebe cada elemento do Array e aplica uma instrução condicional
+// Se a condição for verdadeira, o elemento é colocado no Array de resultado
+// Se for falsa, não insere no Array
+// uso: array.filter(elemento, indice, array)
+
+// Exemplo a partir de um Array gerar outro com elementos par:
+const numeros3 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const resultado3 = numeros3.filter(item => item % 2 == 0); 
+// => funciona como "foreach para cada um" e depois do => funciona como um return item % 2 == 0
+console.log(resultado3);
+
+// Outra forma de uar o  filter, com uma funçao externa
+function numerosPares (a) { 
+    if (a % 2 == 0)
+    return a;
+}
+
+let arrayNumerosPares = numeros3.filter(numerosPares);
+console.log(arrayNumerosPares); // Cuidado pq a função não retornou o "zero"! 
+
+// Outra forma de uar o  filter, com uma funçao "interna"
+let arrayNumerosImpares = numeros3.filter(
+    function(b){
+        if (b % 2 != 0)
+        return b;
+    }
+);
+console.log(arrayNumerosImpares);
+
+// Exemplo a partir de um Array gerar outro com elementos negativos:
+const numeros4 = [0, - 1, 2, 3, - 4, 5, 6, 7, 8, - 9];
+const resultado4 = numeros4.filter(item => item < 0);
+console.log(resultado4);
+
+var funcionarios = [
+    {nome: "Luiz", idade: 59},
+    {nome: "Jó", idade: 37},
+    {nome: "Maria", idade: 41},
+    {nome: "Ana", idade: 21}
+]
+
+let filtroFuncionarios = funcionarios.filter(i => i.nome.length < 3);
+// retorna o(s) funcionário(s) com tamanho de nome menor do que 3, no caso Jó
+console.log(filtroFuncionarios);
+
+let filtroFuncionarios2 = funcionarios.filter(a => a);
+// Retorna todo Array
+console.log(filtroFuncionarios2);
