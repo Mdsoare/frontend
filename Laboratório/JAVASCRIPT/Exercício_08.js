@@ -169,3 +169,18 @@ console.log("A soma total dos elementos do Array é: " + total);
 // Gerando a meia de um Array com dois métudops: reduce e length:
 let resultadoMedia = (numeros6.reduce(function(a, b) {return a + b})) / numeros.length;
 console.log("A média do Array é: " + resultadoMedia);
+
+
+// Trabalhando com forEach
+// arr.forEach(function(valor, indice, array)){
+// console.log(array[indice]);   
+// }
+// valor (obrigatório) = Valor do elemento atual
+// Indice (opcional) = o número do índice do elemento atual
+// array (opcional) = objeto do array ao qual o elemento atual pertence
+
+funcionarios.forEach(function(valor, indice, array){
+    console.log(valor);
+    //console.log(array[indice]);
+});
+
