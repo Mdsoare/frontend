@@ -1,7 +1,7 @@
 /*
 Autor: Marcelo Soares
 Data: 2023-05-27
-Exercício 07: Trabalhando com Arrays
+Exercício 08: Trabalhando com Arrays
 */
 
 //Formas de criação de Array
