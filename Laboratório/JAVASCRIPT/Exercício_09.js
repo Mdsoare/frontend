@@ -35,7 +35,11 @@ teste(1,2,3);
 teste("a");
 teste("Maria", "José");
 
-// Outra forma de criar uma função
+// Criando uma função anônima
+var func = new Function("x", "y", "return x*y;");
+resultado = func(10,20);
+console.log(resultado);
+
 // uma variável que recebe uma função anônima:
 var calcula = function(numero){ return numero * 2};
 var x = calcula(9);
