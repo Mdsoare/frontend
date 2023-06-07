@@ -1,34 +1,42 @@
 /*
 Autor: Marcelo Soares
-Data: 2023-06-06
-Exercício 09: Trabalhando com Objetos
+Data: 2023-06-07
+Exercício 09: Trabalhando com funções
 */
-// Criando um objeto no formato JSON:
-var pessoas = {
-    nome: "Felipe",
-    sobrenome: "Oliveira"
-};
-console.log(pessoas['sobrenome']);
-
-// Outro forma de criar um objeto:
-var pessoa1 = new Object();
-pessoa1.nome = 'Angela';
-pessoa1.sobrenome = 'Silva';
-//Criando uma função para o objeto:
-pessoa1.falarNome = function(){
-    console.log("Nome é " + this.nome);
+//
+// Criando um função sem parâmetros
+function mensagem(){
+    console.log("Olá mundo!");
 }
-//Chamado a função "anônima":
-pessoa1.falarNome();
+// Chamado a função:
+mensagem();
 
-// Mais uma forma de criar um objeto:
-
-function criarPessoa(nome, sobrenome){
-    return {nome, sobrenome};
+//Criando uma função com parâmetros:
+function calculaSoma(a, b){
+    return a + b;
 }
+let resultado = calculaSoma(3,5);
+console.log('O resultado da soma é: '+resultado);
 
-var pessoa2 = criarPessoa("Lucas", "Silva");
-var pessoa3 = criarPessoa("Arthur", "Almeida");
+//Criando funções com valores default
+function valorDefault(a, b=5){
+    return a * b;
+}
+resultado = valorDefault(3); // Aproveitando o segundo parâmetro default "5"
+console.log('O resultado da multiplicação é: ' + resultado);
+resultado = valorDefault(9,4); // Substituindo o valor default 5 por 4
+console.log('Agora o resultado da multiplicação é: ' + resultado);
 
-console.log(pessoa2);
-console.log(pessoa3);
+//Criando funções com parâmetros variádos 
+function teste(...args){
+    console.log(args);
+}
+teste(1,2,3);
+teste("a");
+teste("Maria", "José");
+
+// Outra forma de criar uma função
+// uma variável que recebe uma função anônima:
+var calcula = function(numero){ return numero * 2};
+var x = calcula(9);
+console.log(x);
