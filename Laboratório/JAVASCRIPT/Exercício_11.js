@@ -16,7 +16,7 @@ Exercício 11: Trabalhando com Classes
 //Cronstruindo a classe "User"
 class User{
 	constructor(primeiroNome, sobrenome){
-		this.primeiroNome = primeiroNome;
+		this.primeiroNome = primeiroNome; // outra forma this._primeiroNome = primeiroNome;
 		this.sobrenome = sobrenome;
 	}
 
@@ -24,11 +24,19 @@ class User{
 		console.log(this.primeiroNome + " " + this.sobrenome);
 	}
 
+	setNomeCompleto(primeiroNome, sobrenome){
+		this._primeiroNome = primeiroNome;
+		this._sobrenome = sobrenome;
+	}
+
 }
 
 // Criando objeto (uma instância de uma classe)
 
 const user1 = new User("Caio", "de Lima Granero");
+user1.getNomeCompleto();
+
+user1.setNomeCompleto("José", "de Arimatéia");
 user1.getNomeCompleto();
 
 // Outro conceito importante é sobre getters e setters:
