@@ -1,7 +1,7 @@
 /*
 Autor: Marcelo Soares
 Data: 2023-06-07
-Exercício 09: Trabalhando com Objetos
+Exercício 10: Trabalhando com Objetos
 */
 // Criando um objeto (formato JSON):
 var pessoas = {
