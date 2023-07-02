@@ -1,6 +1,6 @@
 /*
 Autor: Marcelo Soares
-Data: 2023-07-20
+Data: 2023-07-02
 Exercício 12: Trabalhando com Herança
 */
 // Definindo a classe-pai (ou "classe-mãe" ou "Superclasse")
