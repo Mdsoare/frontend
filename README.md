@@ -15,7 +15,8 @@
 	<li>Introdução ao Desenvolvimento Web</li> 
 	<li>Design Thinking, UX e Metodologias Ágeis </li>
 	<li>HTML, CSS e Bootstrap</li>
-	<li>JavaScript</li>	
+	<li>JavaScript</li>
+	<li>React</li>	
 </ul>
 
 <p> </p>
