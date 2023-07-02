@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Elemento do DOM exemplo 1</title>
+</head>
+
+<body>
+	<h2>Teste de DOM com o elemento Window</h2><br>
+	<hr>
+
+	<p>Para interagir basta clicar em qualquer botão abaixo!!!</p><br>
+	<button onclick="f1()">Exibir alerta</button><br><br>
+	<button onclick="f2()">Exibir nome completo</button><br><br>
+	<button onclick="f3()">Somar dois valores</button><br><br>
+	<button onclick="confirma()">Excluir ítem</button><br><br>
+
+</body>
+
+<script>
+	function f1(){
+		window.alert("Nosso primeiro alert")
+	}
+	
+	
+	function f2(){	
+	var nome = window.prompt("Qual é o seu nome?")
+	var sobrenome = window.prompt("Qual é o seu sobrenome?")
+	window.alert("O seu nome é: " + nome.toLocaleUpperCase() + " " + sobrenome.toUpperCase()) //Uso opcional toLocaleUpperCase() ou toUpperCase()
+	}
+
+	function f3(){
+	var n1 = Number(window.prompt("Digite um número?")) // Também poderia usar Number.parseInt()
+	var n2 = Number(window.prompt("Digite outro número?"))
+	var resultado = n1 + n2
+	window.alert("O resultado da soma de " + n1 + " com " + n2 + " é " + resultado)
+	}
+	/*
+	// Atenção!
+	// No exemplo acima foi usada a função Number(str) que converte uma string em número
+	// Porém, pode ser necessário o uso de outras operação além do casting acima
+
+	// O operador unário
+	//parseInt() e parseFloat()
+
+	// O parserInt() é a forma mais comumente usada, recebendo uma string e retornando um inteiro, e o parserFloat() recendo uma string e //retornando um número de ponto flutuante.
+
+	// Usando parseInt(string, base) para converter uma string para um integer
+	// var str5 = "42";
+	// var num5 = parseInt(str5, 10);  // num5 será 42
+
+	// Usando parseFloat(string) para converter uma string para um número de ponto flutuante
+	// var str6 = "3.14159";
+	// var num6 = parseFloat(str6);  // num6 será 3.14159
+	*/
+
+	function confirma(){
+		let confirmacao = confirm("Você deseja realmente excluir esse ítem?")
+		if(confirmacao){
+			alert("Exclusão realizada com sucesso!")
+		} else {
+			alert("Operação Cancelada!")
+		}
+	}
+</script>
+</html>
