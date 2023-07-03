@@ -23,4 +23,26 @@ Exercício 13: DOM (Document Object Model)
 // window.alert() - cria uma janela de alerta com o botão "ok"
 // window.confirm() - cria uma janela com as opções "ok" e "cancel"
 // window.prompt() - cria uma janela para imput de dados com o botão "ok"
-
+//
+// Encontrando elementos
+//
+// > Através da tag
+// document.getElementsByTagName()
+// 
+// Método retorna uma coleção de todos os elementos com um nome da tag especificado
+//
+// Exemplo:
+// 
+// var variasLi = document.getElementsByTagName("li");
+//
+// Para pegar a primeira li
+// var primeiraLi = document.getElementsByTagName("li")[0];
+//
+// Depois que temos o elemento podemos fazer qualquer coisa com ele. Por exemplo,
+// trocar o valor dele ou trocar a cor dele.
+//
+// > Através da ID
+// document.getElementById()
+//
+// > Através da ID
+// document.getElementsByName()
