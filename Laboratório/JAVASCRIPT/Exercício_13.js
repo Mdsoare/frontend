@@ -17,8 +17,10 @@ Exercício 13: DOM (Document Object Model)
 // > reagir a todos os eventod que ocorrem em uma página
 // > pode criar novos eventos na página
 //
-// Window - nosso primeiro elemento da árvire do DOM. Exemplos:
+// Elemento da árvore do DOM. Exemplos:
 //
+// window
 // window.alert() - cria uma janela de alerta com o botão "ok"
 // window.confirm() - cria uma janela com as opções "ok" e "cancel"
 // window.prompt() - cria uma janela para imput de dados com o botão "ok"
+
