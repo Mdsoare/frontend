@@ -36,6 +36,17 @@
 	<div name="divconteudo" class="mensagem">
 		<button onclick="f6()">innerHTML-2</button>
 	</div>
+	<br><br>
+	<hr>
+	<span id='novospan' class='novo'>
+		<button onclick="f8()">Trocar cor do texto</button>
+		<button onclick="f9()">Voltar cor original</button><br><br>
+		Texto novo span
+	</span><br><br>
+
+	<div class='mensagem'>
+		<button onclick="f10()">Exibir</button>
+	</div>
 
 </body>
 
@@ -87,6 +98,21 @@
 
 	function f7(){
 		elementoDivClass.innerHTML = '<button onclick="f6()">innerHTML-2</button>';
+	}
+
+	function f8() {
+		elementoSpanClass = document.querySelector("span.novo"); //elemento.classe, mas também pode-se usar ".classe" ou ID "#novospan"
+		elementoSpanClass.style.color = "red";
+	}
+
+	function f9() {
+		elementoSpanClass = document.querySelector("#novospan"); // Usado o ID
+		elementoSpanClass.style.color = "black";
+	}
+
+	function f10(){
+		elementoSeletor = document.querySelectorAll(".mensagem")[3]; // usada a classe
+		elementoSeletor.innerHTML = "<p>Texto incluído</p>"
 	}
 
 </script>
