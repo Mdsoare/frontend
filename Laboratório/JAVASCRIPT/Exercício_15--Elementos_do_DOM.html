@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Elemento do DOM exemplo 3</title>
+</head>
+
+<body>
+	<h3>Criando elementos com JavaScript</h3>
+	
+
+	<ul id="lista">
+		<li>Produtos</li>	
+	</ul>
+	
+</body>
+
+<script>	
+	// Criando uma div no body
+	var elemento = document.createElement("div");
+	elemento.innerText = "Incluindo texto na div";
+	elemento.style.backgroundColor = "lightgreen";
+	document.body.append(elemento);
+
+	// Adicionando um ítem dinammicamente numa lista:
+	var lista = document.getElementById("lista");
+	var li = document.createElement("li");
+	li.textContent = "Quem somos?";
+	lista.appendChild(li);
+</script>
+
+</html>

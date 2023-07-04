@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Elemento do DOM exemplo 3</title>
+</head>
+
+<body>
+	<h3>Criando uma lista dinamica com JavaScript</h3>
+	
+
+	<ul class="listatime">
+		<!-- Será inputada uma lista dinâmica com JavaScript -->
+	</ul>
+	
+</body>
+
+<script>
+	// Criação de um array 
+	var times = ["Real Madri", "Barcelona", "Bayer de Monique", "Juventus", "Manchester City", "Chelsea"];
+
+	//Criando uma variável com base no elemento "ul" de classe "listatime"
+	var listaDeTimes = document.querySelector("ul.listatime");
+
+	// Criando um loop para inserir um elemento do array na variável time
+	for (var i = 0; i < times.length; i++){ // i é o contador e length é o tamanho do array
+		var time = times[i]; // a cada posição de i (0 até times.length) equivale a posição do array
+		var listaItem = document.createElement('li'); // Objeto criado <li>
+		listaItem.innerText = time; // em cada <li> será input de texto do time
+		listaItem.style.border = '1px solid blue'; // criação de borda
+		listaDeTimes.appendChild(listaItem); // inserção de filho, onde <ul> é pai e <li> é filho
+	}
+</script>
+
+</html>
