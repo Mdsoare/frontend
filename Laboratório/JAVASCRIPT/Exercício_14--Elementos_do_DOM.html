@@ -87,8 +87,9 @@
 
 	function f5(){
 		elementoDivName = document.getElementsByName('divconteudo')[1];
-		elementoDivName.style.color = 'blue';
-		elementoDivName.innerText = 'Olá! Seja bem vindo!!!'
+		elementoDivName.style.color = 'red';
+		elementoDivName.innerText = 'Olá! Seja bem vindo!!!';
+		elementoDivName.innerText = elementoDivName.innerText.toUpperCase();
 	}
 
 	function f6(){
@@ -112,7 +113,9 @@
 
 	function f10(){
 		elementoSeletor = document.querySelectorAll(".mensagem")[3]; // usada a classe
-		elementoSeletor.innerHTML = "<p>Texto incluído</p>"
+		elementoSeletor.innerHTML = "<p>Texto incluído</p>";
+		elementoSeletor.style.color = "green";
+		elementoSeletor.innerHTML = elementoSeletor.innerHTML.toUpperCase();
 	}
 
 </script>

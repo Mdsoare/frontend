@@ -41,4 +41,5 @@ Exercício 13: DOM (Document Object Model)
 // document.getElementsByClassName()
 //
 // > Através da query
-// document.querySelector("elemento.classe");
+// document.querySelector("elemento.classe") 
+// document.querySelectorAll(".classe")[3]
