@@ -26,23 +26,16 @@ Exercício 13: DOM (Document Object Model)
 //
 // Encontrando elementos
 //
-// > Através da tag
-// document.getElementsByTagName()
-// 
-// Método retorna uma coleção de todos os elementos com um nome da tag especificado
-//
-// Exemplo:
-// 
-// var variasLi = document.getElementsByTagName("li");
-//
-// Para pegar a primeira li
-// var primeiraLi = document.getElementsByTagName("li")[0];
-//
-// Depois que temos o elemento podemos fazer qualquer coisa com ele. Por exemplo,
-// trocar o valor dele ou trocar a cor dele.
+// Element vs Elements - O primeiro é unitário e o segundo trabalha com array
 //
 // > Através da ID
 // document.getElementById()
 //
-// > Através da ID
+// > Através da tag
+// document.getElementsByTagName()
+// 
+// > Através do Nome
 // document.getElementsByName()
+//
+// > Através da classe
+// document.getElementsByClassName()

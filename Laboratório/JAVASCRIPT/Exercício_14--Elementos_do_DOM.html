@@ -9,64 +9,84 @@
 
 <body>
 	<h1>Usando seletor do DOM</h1>
-	<hr>
+
 	<div id="reload" class="update">
-		<button onclick="f5()">Atualizar</button>
+		<button onclick="atualizar()">Atualizar</button>
 	</div>
 	<br><br>
-
-	<ul>
-		<li onclick="f0()">Java</li>
-		<li onclick="f1()">Python</li>
-		<li onclick="f2()">NodeJS</li>
-	</ul>
-
+	<hr>
+	<div id="lista" name="menuLista" class="myList">
+		<ul>
+			<li onclick="f0()">Java</li>
+			<li onclick="f1()">Python</li>
+			<li onclick="f2()">NodeJS</li>
+		</ul>
+	</div>
+	<hr>
+	<br><br>
 	<div id="conteudo" name="divconteudo" class="mensagem">
-		<button onclick="f3()">Clique Aqui</button>
+		<button onclick="f3()">innerHTML</button>
 	</div>
 	<br>
 	<div name="divconteudo" class="mensagem">
-		<button onclick="f6()">Clique Aqui também</button>
+		<button onclick="f5()">innerText</button>
+	</div>
+
+		<br>
+	<div name="divconteudo" class="mensagem">
+		<button onclick="f6()">innerHTML-2</button>
 	</div>
 
 </body>
 
-<script>
-	elemento0 = document.getElementsByTagName('li')[0];
-	elemento1 = document.getElementsByTagName('li')[1];
-	elemento2 = document.getElementsByTagName('li')[2];
-	elementoDiv = document.getElementById('conteudo');
-	elementoDivName = document.getElementsByName('divconteudo')[1];
+<script>	
 
-	
+	function atualizar(){
+		window.alert("A página será recarregada!")
+		window.location.reload(true);
+	}
+		
 
 	function f0(){
+		elemento0 = document.getElementsByTagName('li')[0];
 		elemento0.style.color = 'blue';
+		elemento0 = window.alert("A cor do texto será alterada!");
 	}
 
 	function f1(){
+		elemento1 = document.getElementsByTagName('li')[1];
 		elemento1.style.background = 'red';
+		elemento1 = window.alert("A cor de fundo será alterada!");
 	}
 
 	function f2(){
-		elemento2.innerText = 'Spring Boot';
+		elemento2 = document.getElementsByTagName('li')[2];
+		elemento2.innerText = 'Spring Boot';	
+		elemento2 = window.alert("Nome será alterado!");			
 	}
 
 	function f3(){
+		elementoDiv = document.getElementById('conteudo');
 		elementoDiv.innerHTML = '<button onclick="f4()">Clique Novamente</button> <p>Exibindo a tag "p" dentro do HTML</p>';
 	}
 
 	function f4(){
-		elementoDiv.innerHTML = '<button onclick="f3()">Clique Aqui</button>';
+		elementoDiv.innerHTML = '<button onclick="f3()">innerHTML</button>';
 	}
 
 	function f5(){
-		window.location.reload(true);
+		elementoDivName = document.getElementsByName('divconteudo')[1];
+		elementoDivName.style.color = 'blue';
+		elementoDivName.innerText = 'Olá! Seja bem vindo!!!'
 	}
 
 	function f6(){
-		elementoDivName.style.color = 'blue';
-		elementoDivName.innerText = 'Olá! Seja bem vindo!!!'
+		elementoDivClass = document.getElementsByClassName('mensagem')[2];
+		elementoDivClass.innerHTML = '<button onclick="f7()">Clique outra vez</button> <p>Exibindo outro texto com a tag "p" dentro do HTML em outra div</p>';
+	}
+
+	function f7(){
+		elementoDivClass.innerHTML = '<button onclick="f6()">innerHTML-2</button>';
 	}
 
 </script>
