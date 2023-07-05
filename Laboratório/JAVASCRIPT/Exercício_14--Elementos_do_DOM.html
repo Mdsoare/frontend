@@ -15,15 +15,15 @@
 	</div>
 	<br><br>
 	<hr>
-	<div id="lista" name="menuLista" class="myList">
-		<ul>
+	<div id="lista" name="menuLista">
+		<ul class="myList" onmouseover="passarMouse2()" onmouseout="tirarMouse2()">
 			<li onclick="f0()">Java</li>
 			<li onclick="f1()">Python</li>
 			<li onclick="f2()">NodeJS</li>
 		</ul>
 	</div>
 	<hr>
-	<br><br>
+	<br>
 	<div id="conteudo" name="divconteudo" class="mensagem">
 		<button onclick="f3()">innerHTML</button>
 	</div>
@@ -36,13 +36,13 @@
 	<div name="divconteudo" class="mensagem">
 		<button onclick="f6()">innerHTML-2</button>
 	</div>
-	<br><br>
+	<br>
 	<hr>
 	<span id='novospan' class='novo'>
 		<button onclick="f8()">Trocar cor do texto</button>
-		<button onclick="f9()">Voltar cor original</button><br><br>
-		Texto novo span
-	</span><br><br>
+		<button onclick="f9()">Voltar cor original</button><br>
+		<p id="eventomouse" onmouseover="passarMouse()" onmouseout="tirarMouse()">Passe o mouse aqui</p>
+	</span><br>
 
 	<div class='mensagem'>
 		<button onclick="f10()">Exibir</button>
@@ -116,6 +116,24 @@
 		elementoSeletor.innerHTML = "<p>Texto incluído</p>";
 		elementoSeletor.style.color = "green";
 		elementoSeletor.innerHTML = elementoSeletor.innerHTML.toUpperCase();
+	}
+
+	function passarMouse(){
+		document.getElementById("eventomouse").innerHTML = "Texto alterado quando o mouse passou por cima";
+	}
+
+	function tirarMouse(){
+		document.getElementById("eventomouse").innerHTML = "Passe o mouse aqui";
+	}
+
+	function passarMouse2(){
+		elementoUlClass = document.getElementsByClassName('myList')[0];
+		elementoUlClass.style.color = "red";
+	}
+
+	function tirarMouse2(){
+		elementoUlClass = document.getElementsByClassName('myList')[0];
+		elementoUlClass.style.color = "black";
 	}
 
 </script>
