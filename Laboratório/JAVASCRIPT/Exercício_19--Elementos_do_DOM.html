@@ -9,17 +9,18 @@
 
 <body>
 	<h3>Coletando valores de um formulário</h3>
-	<form name="formCadastro" onsubmit="Validador()">
+	<!--Consuta: https://developer.mozilla.org/pt-BR/docs/Web -->
+	<form name="formCadastro" autocomplete="off" onsubmit="Validador()">
 		<label>Nome</label><br>
-		<input type="text" id="nome"><br><br>
+		<input type="text" id="nome" placeholder="Seu nome"><br><br> <!-- a opção required funcionaria como preenchimento obrgatório-->
 
 		<label>E-mail</label><br>
-		<input type="email" id="email"><br><br>
+		<input type="email" id="email" placeholder="seuemail@exemplo.com"><br><br>
 
 		<button type="submit">Cadastrar</button>
 		<button type="reset">Limpar</button>
 	</form>
-	
+</body>
 <script>
 	function Validador(){
 		var nomePessoa = document.forms["formCadastro"]["nome"].value;
@@ -27,7 +28,12 @@
 
 		if (nomePessoa == "" || emailPessoa == ""){
 			alert("Favor preencher todos os campos");
+			// função built-in que impede redirecionamento. Útil em situações onde permite o término do preenchimento do formulários. 
+			event.preventDefault();
+		}else{
+			alert("Olá, " + nomePessoa + "! Seu cadastro foi realizado com sucesso!");
 		}
 	}
 </script>
+
 </html>
