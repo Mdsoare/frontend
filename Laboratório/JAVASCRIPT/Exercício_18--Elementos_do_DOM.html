@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Elemento do DOM exemplo 5</title>
+</head>
+
+<body>
+	<h3>Coletando valores de um formulário</h3>
+	<form>
+		<label>Nome</label><br>
+		<input type="text" id="nome"><br><br>
+
+		<label>E-mail</label><br>
+		<input type="email" id="email"><br><br>
+
+		<button type="submit" onclick="NovoItem()">Cadastrar</button>
+		<button type="reset">Limpar</button>
+		<button onclick="Atualizar()">Atualizar</button>
+	</form>
+	
+<script>
+	function NovoItem(){
+		var campoNome = document.getElementById('nome');
+		var campoEmail = document.getElementById('email');
+		alert('Seu nome é: ' + campoNome.value + ' e seu e-mail: ' + campoEmail.value);
+	}
+
+	function Atualizar(){
+		window.location.reload();
+	}
+
+</script>
+</html>
