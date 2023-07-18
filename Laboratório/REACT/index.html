@@ -33,9 +33,11 @@
         <li>Se tudo tiver correto acesse <a href="http://localhost:5500">aqui</a></li>
     </ul>
     -->
-    <div id="app"></div>
+    <div id="app"></div><br>
+    <div id="cmp"></div>
 
     <script>
+        //Criando objetos através de funções
         function hello() {
             return (
                 React.createElement('h1',{}, 'Olá mundo!')
@@ -44,6 +46,20 @@
         ReactDOM.render(
             React.createElement(hello),
             document.querySelector('#app')
+        )
+
+        // Criando objetos através de classes
+        class novo extends React.Component{
+            render(){
+                return(
+                    React.createElement('h1', {}, 'Bem vindo!')
+                )
+            }
+        }
+
+        ReactDOM.render(
+            React.createElement(novo),
+            document.querySelector('#cmp')
         )
     </script>
 </body>
