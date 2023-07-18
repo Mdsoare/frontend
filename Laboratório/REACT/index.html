@@ -34,7 +34,8 @@
     </ul>
     -->
     <div id="app"></div><br>
-    <div id="cmp"></div>
+    <div id="cmp"></div><br>
+    <div id="gbk"></div><br>
 
     <script>
         //Criando objetos através de funções
@@ -48,6 +49,21 @@
             document.querySelector('#app')
         )
 
+        function goBack (){
+            return (
+                React.createElement('h1', {}, 
+                React.createElement('span', {}, 'Volte '),
+                React.createElement('strong', {}, 'Sempre'),
+                '!!!!!!!'
+                )
+            )
+        }
+
+        ReactDOM.render(
+            React.createElement(goBack),
+            document.querySelector('#gbk')
+        )
+
         // Criando objetos através de classes
         class novo extends React.Component{
             render(){
@@ -56,11 +72,10 @@
                 )
             }
         }
-
         ReactDOM.render(
             React.createElement(novo),
             document.querySelector('#cmp')
-        )
+        ) 
     </script>
 </body>
 </html>
