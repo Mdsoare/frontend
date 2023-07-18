@@ -10,6 +10,7 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 </head>
 <body>
+    <!--
     <h1>Roteiro para o uso do React:</h1>
     <hr>
     <ol><p>Instalação do Node Js:</p>
@@ -31,5 +32,19 @@
         <li>Dentro do html clique com o botão direito e selecione "Open with Live Server"</li>
         <li>Se tudo tiver correto acesse <a href="http://localhost:5500">aqui</a></li>
     </ul>
+    -->
+    <div id="app"></div>
+
+    <script>
+        function hello() {
+            return (
+                React.createElement('h1',{}, 'Olá mundo!')
+            )
+        }
+        ReactDOM.render(
+            React.createElement(hello),
+            document.querySelector('#app')
+        )
+    </script>
 </body>
 </html>
