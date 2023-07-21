@@ -39,13 +39,13 @@
 
     <script>
         //Criando objetos através de funções
-        function hello() {
+        function hello(props) {
             return (
-                React.createElement('h1',{}, 'Olá mundo!')
+                React.createElement('h1',{id: 'titulo', className:'cabecalho'}, 'Olá', props.label, props.texto)
             )
         }
         ReactDOM.render(
-            React.createElement(hello),
+            React.createElement(hello, {label: ' Descomplica!', texto: ' Tudo bem?'}),
             document.querySelector('#app')
         )
 
