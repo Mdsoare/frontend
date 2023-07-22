@@ -11,13 +11,15 @@
 <p> </p>
 <h3> <font face="Helvetica"> 📖 Alguns dos assuntos abordados 📖</font></h3>
 
-<ul>
+<ol>
 	<li>Introdução ao Desenvolvimento Web</li> 
 	<li>Design Thinking, UX e Metodologias Ágeis </li>
 	<li>HTML, CSS e Bootstrap</li>
 	<li>JavaScript</li>
-	<li>React</li>	
-</ul>
+	<li>React</li>
+	<li>Gestão de Projetos e Produtos</li>
+	<li>Inteligência Emocional</li>	
+</ol>
 
 <p> </p>
 <h3 align="center"><font face="Helvetica"> ✨ ️Redes Socias ✨</font></h3>
