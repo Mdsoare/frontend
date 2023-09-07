@@ -2,7 +2,7 @@
     <a href="https://accounts.descomplica.com.br/">
     <img align="center" width="40px" src="https://institutonu.com.br/wp-content/themes/twentytwenty/assets/img/logo/logo.svg"></a>
     <span>Projeto Instituto NuBank / Descomplica</span>
-    <img align="center" width="40px" src="https://no.descomplica.com.br/hubfs/Logo_-_Descomplica-1.png"></a>
+    <img align="center" width="80px" src="https://no.descomplica.com.br/hubfs/Logo_-_Descomplica-1.png"></a>
 </h1>
 
 Repositório criado para fins educativos, com a disponibilização de materiais de apoio ao **Treinamento Front-End**. Um projeto da [Faculdade Descomplica](https://accounts.descomplica.com.br/) em parceria com o [Instiruto Nubank](https://institutonu.com.br/)
