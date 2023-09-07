@@ -14,12 +14,13 @@ O objetivo do treinamento é a capacitação profissional. São ministradas aula
 [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
 [![Github](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
 [![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)](https://markdown.net.br/)
-[![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)](https://www.w3schools.com/html/default.asp)
 
-[![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)](https://www.w3schools.com/css/default.asp)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3schools.com/html/default.asp)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3schools.com/css/default.asp)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=30A3DC)](https://www.w3schools.com/bootstrap/bootstrap_ver.asp)
-[![JavaScrip](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-[![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=react&logoColor=30A3DC)](https://pt-br.react.dev/)
+
+[![JavaScrip](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-00599C?style=for-the-badge&logo=react&logoColor=30A3DC)](https://pt-br.react.dev/)
 
 ## Percurso ⌛
 <table>
@@ -149,6 +150,7 @@ O objetivo do treinamento é a capacitação profissional. São ministradas aula
 - [MDN WEB DOCS](https://developer.mozilla.org/pt-BR/)
 - [REACT. Introdução](https://pt-br.legacy.reactjs.org/docs/getting-started.html)
 - [REACT. A biblioteca para web e interfaces de usuário nativas](https://pt-br.react.dev/)
+- [BADGES](https://hendrasob.github.io/badges/)
 
 ##
 <div align="center">Disponibilizado por <a href="https://github.com/Mdsoare">🕶 Marcelo Soares ®</a>.</div>
