@@ -126,9 +126,9 @@ O objetivo do treinamento é a capacitação profissional. São ministradas aula
 
 ## ✨ ️Redes Socias ✨
 
-[![PerfilDIO](https://img.shields.io/badge/DIO-000?style=for-the-badge)](https://web.dio.me/users/marcelo_soares92)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/marcelodsoares/) 
+[![PerfilDIO](https://img.shields.io/badge/DIO-0077B5?style=for-the-badge&logo=dio&logoColor=white)](https://web.dio.me/users/marcelo_soares92)
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/Mdsoare/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcelodsoares/) 
 
 <table>
   <tr>
