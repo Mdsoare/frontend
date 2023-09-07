@@ -1,8 +1,7 @@
 <h1>
     <a href="https://accounts.descomplica.com.br/">
-    <img align="center" width="40px" src="https://institutonu.com.br/wp-content/themes/twentytwenty/assets/img/logo/logo.svg"></a>
-    <span>Projeto Instituto NuBank / Descomplica</span>
-    <img align="center" width="80px" src="https://no.descomplica.com.br/hubfs/Logo_-_Descomplica-1.png"></a>
+    <img align="center" width="100px" src="https://no.descomplica.com.br/hubfs/Logo_-_Descomplica-1.png"></a>
+    <span>Projeto Descomplica / Instituto NuBank</span>
 </h1>
 
 Repositório criado para fins educativos, com a disponibilização de materiais de apoio ao **Treinamento Front-End**. Um projeto da [Faculdade Descomplica](https://accounts.descomplica.com.br/) em parceria com o [Instiruto Nubank](https://institutonu.com.br/)
@@ -14,8 +13,10 @@ O objetivo do treinamento é a capacitação profissional. São ministradas aula
 ## Ferramentas 🖥️
 [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
 [![Github](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
-[![HTML](https://img.shields.io/badge/Html-000?style=for-the-badge&logo=html&logoColor=30A3DC)](https://www.w3schools.com/html/default.asp)
-[![CSS](https://img.shields.io/badge/Css-000?style=for-the-badge&logo=css&logoColor=30A3DC)](https://www.w3schools.com/css/default.asp)
+[![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)](https://markdown.net.br/)
+[![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)](https://www.w3schools.com/html/default.asp)
+
+[![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)](https://www.w3schools.com/css/default.asp)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=30A3DC)](https://www.w3schools.com/bootstrap/bootstrap_ver.asp)
 [![JavaScrip](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 [![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=react&logoColor=30A3DC)](https://pt-br.react.dev/)
@@ -62,7 +63,7 @@ O objetivo do treinamento é a capacitação profissional. São ministradas aula
       <td>JavaScript</td>
       <td align="center">
         <a href="https://github.com/Mdsoare/frontend/tree/main/03%20-%20JavaScript">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
         </a>
       </td>
     </tr>
@@ -80,7 +81,7 @@ O objetivo do treinamento é a capacitação profissional. São ministradas aula
       <td>Gestão de Projetos e Produtos</td>
       <td align="center">
         <a href="https://github.com/Mdsoare/frontend/tree/main/05%20-%20Gest%C3%A3o%20de%20Projetos%20e%20Produtos">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+          <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
         </a>
       </td>
     </tr>
@@ -98,7 +99,7 @@ O objetivo do treinamento é a capacitação profissional. São ministradas aula
       <td>Laboratório</td>
       <td align="center">
         <a href="https://github.com/Mdsoare/frontend/tree/main/Laborat%C3%B3rio">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
         </a>
       </td>
     </tr>
