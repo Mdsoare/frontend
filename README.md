@@ -1,31 +1,153 @@
-<h1 align="center"><a href="https://accounts.descomplica.com.br/?returnUrl=https://empresas.descomplica.com.br/"><font face="Helvetica"> Projeto Instituto NuBank / Descomplica </font></a></h1>
+<h1>
+    <a href="https://accounts.descomplica.com.br/">
+    <img align="center" width="40px" src="https://institutonu.com.br/wp-content/themes/twentytwenty/assets/img/logo/logo.svg"></a>
+    <span>Projeto Instituto NuBank / Descomplica</span>
+    <img align="center" width="40px" src="https://no.descomplica.com.br/hubfs/Logo_-_Descomplica-1.png"></a>
+</h1>
 
-<h3 align="center"><font face="Helvetica"> Treinamento Front-End</font></h3>
+Repositório criado para fins educativos, com a disponibilização de materiais de apoio ao **Treinamento Front-End**. Um projeto da [Faculdade Descomplica](https://accounts.descomplica.com.br/) em parceria com o [Instiruto Nubank](https://institutonu.com.br/)
+<br>
 
-<!--
-<p> </p>
-<h3 align="center"><font face="Helvetica"> Resumo: </font></h3>
--->
+## Objetivo 🎯
+O objetivo do treinamento é a capacitação profissional. São ministradas aulas introdutórias de tecnologias relacionadas ao universo Front-End.
 
-<p align="center"><font face="Helvetica"> Treinamento iniciado em 20 de março de 2023. </font></p>
-<p> </p>
-<h3> <font face="Helvetica"> 📖 Alguns dos assuntos abordados 📖</font></h3>
+## Ferramentas 🖥️
+[![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
+[![Github](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
+[![HTML](https://img.shields.io/badge/Html-000?style=for-the-badge&logo=html&logoColor=30A3DC)](https://www.w3schools.com/html/default.asp)
+[![CSS](https://img.shields.io/badge/Css-000?style=for-the-badge&logo=css&logoColor=30A3DC)](https://www.w3schools.com/css/default.asp)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=30A3DC)](https://www.w3schools.com/bootstrap/bootstrap_ver.asp)
+[![JavaScrip](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=react&logoColor=30A3DC)](https://pt-br.react.dev/)
 
-<ol>
-	<li>Introdução ao Desenvolvimento Web</li> 
-	<li>Design Thinking, UX e Metodologias Ágeis </li>
-	<li>HTML, CSS e Bootstrap</li>
-	<li>JavaScript</li>
-	<li>React</li>
-	<li>Gestão de Projetos e Produtos</li>
-	<li>Inteligência Emocional</li>	
-</ol>
+## Percurso ⌛
+<table>
+  <thead>
+    <tr align="left">
+      <th>Nº</th>
+      <th>Etapas</th>
+      <th>📖 Materiais de Apoio 📖</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <td>01</td>
+      <td>Introdução ao Desenvolvimento Web</td>
+      <td align="center">
+        <a href="https://github.com/Mdsoare/frontend/tree/main/00%20-%20Introdu%C3%A7%C3%A3o%20ao%20Desenvolvimento%20Web">
+           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Design Thinking, UX e Metodologias Ágeis </td>
+      <td align="center">
+        <a href="https://github.com/Mdsoare/frontend/tree/main/01%20-%20Design%20Thinking%2C%20UX%20e%20Metodologias%20%C3%81geis">
+           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>HTML, CSS e Bootstrap</td>
+      <td align="center">
+        <a href="https://github.com/Mdsoare/frontend/tree/main/02%20-%20HTML%2C%20CSS%20e%20Bootstrap">
+           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>JavaScript</td>
+      <td align="center">
+        <a href="https://github.com/Mdsoare/frontend/tree/main/03%20-%20JavaScript">
+           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>05</td>
+      <td>React</td>
+      <td align="center">
+        <a href="https://github.com/Mdsoare/frontend/tree/main/04%20-%20React">
+           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>06</td>
+      <td>Gestão de Projetos e Produtos</td>
+      <td align="center">
+        <a href="https://github.com/Mdsoare/frontend/tree/main/05%20-%20Gest%C3%A3o%20de%20Projetos%20e%20Produtos">
+           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>07</td>
+      <td>Inteligência Emocional</td>
+      <td align="center">
+        <a href="https://github.com/Mdsoare/frontend/tree/main/06%20-%20Intelig%C3%AAncia%20Emocional">
+           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+        </a>
+      </td>
+    </tr>
+     <tr>
+      <td>08</td>
+      <td>Laboratório</td>
+      <td align="center">
+        <a href="https://github.com/Mdsoare/frontend/tree/main/Laborat%C3%B3rio">
+           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
 
-<p> </p>
-<h3 align="center"><font face="Helvetica"> ✨ ️Redes Socias ✨</font></h3>
-<p align="center"> 
-<a href="https://www.linkedin.com/in/marcelodsoares/"><font face="Helvetica">LinkedIn</font></a>
-<a href="https://github.com/Mdsoare/"><font face="Helvetica">GitHub</font></a>
-</p>
+## Ajuda - Convenção de Commits 💻
 
-<p align="center"><font face="Helvetica"> Disponibilizado por Marcelo Soares ® </font></p>
+| Tipo de Commit | Descrição                                                                                                 |
+| -------------- | --------------------------------------------------------------------------------------------------------- |
+| `feat`         | Adiciona uma nova funcionalidade ao projeto.                                                              |
+| `fix`          | Corrige um bug ou problema no projeto.                                                                    |
+| `docs`         | Altera a documentação do projeto. Ex.: README, comentários no código.                                     |
+| `style`        | Realiza mudanças na aparência, sem alterar a funcionalidade.                                              |
+| `refactor`     | Realiza mudanças no código que não alteram a funcionalidade.                                              |
+| `test`         | Adiciona ou modifica testes no projeto.                                                                   |
+
+#### Exemplo commit
+
+`feat: adicionado novo arquivo`
+<br>
+
+## ✨ ️Redes Socias ✨
+
+[![PerfilDIO](https://img.shields.io/badge/DIO-000?style=for-the-badge)](https://web.dio.me/users/marcelo_soares92)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/marcelodsoares/) 
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/Mdsoare/)
+
+<table>
+  <tr>
+    <td>
+      <img width="80px" align="center" src="https://avatars.githubusercontent.com/Mdsoare"/>
+    </td>
+    <td align="left">
+      <a href="https://github.com/Mdsoare">
+        <span><b>Marcelo Soares</b></span>
+      </a>
+      <br>
+      <span>Analista de Sistemas</span>
+    </td>
+  </tr>
+</table>
+
+## Referências 🔎
+- [W3SHOOLS](https://www.w3schools.com/)
+- [MDN WEB DOCS](https://developer.mozilla.org/pt-BR/)
+- [REACT. Introdução](https://pt-br.legacy.reactjs.org/docs/getting-started.html)
+- [REACT. A biblioteca para web e interfaces de usuário nativas](https://pt-br.react.dev/)
+
+##
+<div align="center">Disponibilizado por <a href="https://github.com/Mdsoare">🕶 Marcelo Soares ®</a>.</div>
